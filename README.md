@@ -34,13 +34,41 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    There are many types of HTML tags. Some of these, like div and span, don't have any meaning on their
+    own. They are generic and non-specific. Other html tags, like nav, img, a, and footer, have a clear
+    and specific meaning. This is semantic HTML. Using semantic tags helps make our code more readable - 
+    it's easier to understand a HTML document with defined sections rather than one composed only of 
+    div elements stacked atop one another. Additionally, there are commercial reasons to use semantic
+    tags, because search engines check websites for semantic tags in order to decide how to display them.
+    So we use semantic HTML to improve readability and SEO.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+A block element always starts on a new line and takes up the full width available. 
+
+An inline element does not start on a new line and only takes up as much width as necessary.
 
 3. What are the 4 areas of the box model?
 
+Content: the minimum size of the element itself
+
+Padding: transparent space that "pads" the content. If we have a 20*20px square of content, adding 5px of padding will increase the size of the element itself to 25*25px through adding 5px of transparent space to its width and height
+
+Border: A line that goes around the outer edge of the padding and content. 
+
+Margin: Transparent space around the element. Whereas padding adds transparent space inside the element,
+thereby increasing its size, margin adds space outside (around) the element.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+This property works on the cross-axis. If flex direction is row (default) it will center vertically.
+If flex direction is column, it will center horizontally. 
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows a team of developers to see who made what changes to a codebase, and switch back to previous 
+versions of something goes wrong. This is useful since software projects are complex systems that can 
+break easily.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
