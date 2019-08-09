@@ -101,14 +101,32 @@ p {
 
 .about-middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
     display: flex;
     flex-direction: column;
+}
+
+.about-middle-content h2 {
+    padding-top: 10px;
+}
+
+.about-middle-content p {
+    padding-bottom: 10px;
 }
 
 .content-box {
     display: flex;
     flex-direction: column;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;   
+    margin: 20px;
+}
+
+.button {
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid black;
+    width: 35%;
+    padding: 10px 20px 10px 20px;;
 }
 
 .about-upper-middle-content {
@@ -120,12 +138,6 @@ p {
     display: flex;
     flex-direction: row;
 }
-
-.about-middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
 
 .bottom-content {
     display: flex;
