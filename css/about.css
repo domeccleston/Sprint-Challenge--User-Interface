@@ -66,7 +66,7 @@ html, body {
 
 .navbar a {
     text-decoration: none;
-    font-size: 19
+    font-size: 14px;
     color: black;
 }
 
@@ -95,70 +95,37 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.about-middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    display: flex;
+    flex-direction: column;
 }
 
-.middle-content h2 {
+.content-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-upper-middle-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-lower-middle-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.box-1 {
-    background: teal;
-    
-}
-
-.box-2 {
-    background: gold;
-}
-.box-3 {
-    background: cadetblue;
-}
-.box-4 {
-    background: coral;
-}
-.box-5 {
-    background: crimson;
-}
-.box-6 {
-    background: forestgreen;
-}
-.box-7 {
-    background: darkorchid;
-}
-.box-8 {
-    background: hotpink;
-}
-.box-9 {
-    background: indigo;
-}
-.box-10 {
-    background: dodgerblue;
-}
 
 .bottom-content {
     display: flex;
