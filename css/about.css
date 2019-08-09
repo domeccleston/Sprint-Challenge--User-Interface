@@ -95,83 +95,61 @@ p {
 }
 
 .top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
+    padding: 0 2%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.about-middle-content {
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-middle-content h2 {
+    padding-top: 10px;
+}
+
+.about-middle-content p {
+    padding-bottom: 10px;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
     border-bottom: 1px dashed black;
+    padding-bottom: 20px;   
+    margin: 20px;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.content-box img {
+    padding-bottom: 5px;
 }
 
-.middle-content .boxes {
+.content-box p {
+    padding-bottom: 20px;
+}
+
+.button {
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid black;
+    width: 35%;
+    padding: 10px 20px 10px 20px;
+}
+
+.about-upper-middle-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    margin: 20px 2.5%;
-    color: white;
+.about-lower-middle-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
 }
 
-
-.box-1 {
-    background: teal;
-    
-}
-
-.box-2 {
-    background: gold;
-}
-.box-3 {
-    background: cadetblue;
-}
-.box-4 {
-    background: coral;
-}
-.box-5 {
-    background: crimson;
-}
-.box-6 {
-    background: forestgreen;
-}
-.box-7 {
-    background: darkorchid;
-}
-.box-8 {
-    background: hotpink;
-}
-.box-9 {
-    background: indigo;
-}
-.box-10 {
-    background: dodgerblue;
-}
-
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.about-bottom-content {
+    padding: 20px;
+    padding-bottom: 40px;   
 }
 
 footer {
