@@ -95,7 +95,7 @@ p {
 }
 
 .top-content .text-container {
-    padding: 0 1%;
+    padding: 0 2%;
     padding-bottom: 20px;  
 }
 
@@ -121,12 +121,20 @@ p {
     margin: 20px;
 }
 
+.content-box img {
+    padding-bottom: 5px;
+}
+
+.content-box p {
+    padding-bottom: 20px;
+}
+
 .button {
     border-radius: 10px;
     text-align: center;
     border: 2px solid black;
     width: 35%;
-    padding: 10px 20px 10px 20px;;
+    padding: 10px 20px 10px 20px;
 }
 
 .about-upper-middle-content {
@@ -139,18 +147,9 @@ p {
     flex-direction: row;
 }
 
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+.about-bottom-content {
+    padding: 20px;
+    padding-bottom: 40px;   
 }
 
 footer {
